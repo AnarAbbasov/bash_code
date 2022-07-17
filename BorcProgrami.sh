@@ -2,7 +2,7 @@
 quit=0
 while [ $quit -eq 0  ]
 do
-   dialog --menu "Please select action:" 0 0 0 1 "show all transactions" 2 "add transactaion" 3 "Grand total" 4 "Quit"  2>/tmp/selected_option.txt 
+   dialog --menu "Please select action:" 0 0 0 1 "Show all transactions" 2 "Add transactaion" 3 "Grand total" 4 "Quit"  2>/tmp/selected_option.txt 
 
  
    option=$(cat /tmp/selected_option.txt)
